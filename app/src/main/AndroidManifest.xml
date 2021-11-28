@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.what_food">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.What_food">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            <activity android:name=".second" android:label="second activity"/>
+
+            <activity android:name=".worldcup_ko1" android:label="worldcup_ko"/>
+            <activity android:name=".worldcup_ko2" android:label="worldcup_ko2"/>
+            <activity android:name=".worldcup_kof" android:label="worldcup_kof"/>
+            <activity android:name=".worldcup_ko_result" android:label="worldcup_ko_result"/>
+
+            <activity android:name=".worldcup_jp1" android:label="worldcup_jp1"/>
+            <activity android:name=".worldcup_jp2" android:label="worldcup_jp2"/>
+            <activity android:name=".worldcup_jpf" android:label="worldcup_jpf"/>
+            <activity android:name=".worldcup_jp_result" android:label="worldcup_jp_resuolt"/>
+
+            <activity android:name=".worldcup_ch1" android:label="worldcup_ch1"/>
+            <activity android:name=".worldcup_ch2" android:label="worldcup_ch2"/>
+            <activity android:name=".worldcup_chf" android:label="worldcup_chf"/>
+            <activity android:name=".worldcup_ch_result" android:label="worldcup_ch_resuolt"/>
+
+            <activity android:name=".worldcup_fast1" android:label="worldcup_fast1"/>
+            <activity android:name=".worldcup_fast2" android:label="worldcup_fast2"/>
+            <activity android:name=".worldcup_fastf" android:label="worldcup_fastf"/>
+            <activity android:name=".worldcup_fast_result" android:label="worldcup_fast_resuolt"/>
+
+            <activity android:name=".worldcup_des1" android:label="worldcup_des1"/>
+            <activity android:name=".worldcup_des2" android:label="worldcup_des2"/>
+            <activity android:name=".worldcup_desf" android:label="worldcup_desf"/>
+            <activity android:name=".worldcup_des_result" android:label="worldcup_des_resuolt"/>
+
+            <activity android:name=".worldcup_west1" android:label="worldcup_west1"/>
+            <activity android:name=".worldcup_west2" android:label="worldcup_west2"/>
+            <activity android:name=".worldcup_westf" android:label="worldcup_westf"/>
+            <activity android:name=".worldcup_west_result" android:label="worldcup_west_resuolt"/>
+
+            <activity android:name=".worldcup_world1" android:label="worldcup_world1"/>
+            <activity android:name=".worldcup_world2" android:label="worldcup_world2"/>
+            <activity android:name=".worldcup_worldf" android:label="worldcup_worldf"/>
+            <activity android:name=".worldcup_world_result" android:label="worldcup_world_resuolt"/>
+
+            <activity android:name=".worldcup_snack1" android:label="worldcup_snack1"/>
+            <activity android:name=".worldcup_snack2" android:label="worldcup_snack2"/>
+            <activity android:name=".worldcup_snackf" android:label="worldcup_snackf"/>
+            <activity android:name=".worldcup_snack_result" android:label="worldcup_snack_resuolt"/>
+
+
+
+        <activity android:name=".end" android:label="end"/>
+    </application>
+
+</manifest>
